@@ -40,7 +40,7 @@ function FeedbackForm({ handleAdd }) {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h2>How would ou rate your service with us?</h2>
+        <h2>How would you rate your service with us?</h2>
         <RatingSelect
           select={(rating) => {
             setRating(rating);
